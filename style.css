@@ -14,6 +14,15 @@ body{
 .bg{
     background: url('img/cat.png') no-repeat center center/cover;
     position: absolute;
-    top: 0;
-    left: 0;
+    top: -30px;
+    left: -30px;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    z-index: -1;
+    filter: blur(0px);
+}
+
+.loading-text{
+    font-size: 50px;
+    color: #fff;
 }
